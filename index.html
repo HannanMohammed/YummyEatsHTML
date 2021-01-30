@@ -1,122 +1,88 @@
-<!DOCTYPE html>
-<!-- BOOTSTRAP -->
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-
     <title>YummyEats</title>
   </head>
   <body>
-    
-    <link rel="stylesheet" href="style.css"/>
-
-    <!--NAVBAR AND LOGO -->
-    <div class="text-container" >
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
-  <a class="nav-link" href="http://127.0.0.1:5500/main.html#"><img src="PIZZA.png"></a> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="PIZZA.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"  >CONTACT</a>
-        </li>
+        
+         <li> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
+        
+        
+        <li>  <a class="nav-link" href="#">Contact</a> </li>
+        
+        
+        <li> <a class="nav-link" href="#">About</a> </li>
+        
+        
+         <li> <a class="nav-link" href="#">Donate</a> </li>
+
          
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">IMAGES</a>
-          </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">DONATE</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">SIGN UP</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">LOGIN</a>
-          </li>
-
-        </div>
-        
-          
-            
-          </ul>
-        </li>
-        
+       
       </ul>
-
     </div>
   </div>
 </nav>
 
-<!--SEARCH AND BG IMAGE-->
-  <div class="searchandbg">
-    
-        <div class="searchform">
-          <form>
-          <input type="text" id="searchbox" placeholder="Search by Pizza hut,Dominos etc" />
-          <h2>SEARCH FOR YOUR FAVOURITE RESTRAUNT!</h2>
-          <input type="button" value="SEARCH!">
-          </form>
+
+
+
+      <div class="bgandsearch">
+        <img  src="PIZZERIA.jpg" class="img-fluid">
+        <form class="form-container">
+          <p><strong>SEARCH FOR YOUR FAVORITE RESTRAUNT!</strong></p>
+          <div class="restraunt">
+          <label for="restraunt"></label>
+          <input type="text" name="restraunt" placeholder="Search by Dominos, Pizza hut">
+          <input type="button" value="Search!">
         </div>
-
-    <div class="bgimage">
-      <img src="PIZZERIA.jpg" class="img-fluid"/>
-
-    </div>
-  </div>
-
-  <!--CeoNote-->
-      <div class="CeoNote">
-        <h3>NOTE FROM OUR CEO!</h3>
-
-            <div class="foodbowl">
-              <img src="Salad Bowl.jpeg"/>
-            </div>
-
-            <div class="ceonote">
-              <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="..." alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-            </div>
-
-      </div>
-
-      <!--FOOTER-->
-        <div class="footer">
-          <div class="row">
-            
+        </form>
+         <div class="bottom">
+          <h2> <a href="#">Note From Our CEO!</a> </h2>
+          <div class="bottomimg">
+            <div class="container">
+            <img src="Salad Bowl.jpeg">
           </div>
+         <div class=" text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Hannan Mohammed</h5>
+    <p class="card-text">This will be added soon for now its blank.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+          
         </div>
-    
+
+        <div class="footer">
+        <footer>
+          <h6>Copyright © YummyEats </h6>
+          <div class="icons">
+
+  </div>
+        </footer>
+      </div>
   </body>
 </html>
